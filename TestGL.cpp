@@ -50,6 +50,16 @@ int mainFont(int argc, char** argv);
 int mainImage(int argc, char** argv);
 int mainPboimage(int argc, char **argv);
 int mainColortable(int argc, char** argv);
+int mainChecker(int argc, char** argv);
+int mainTexsub(int argc, char** argv);
+int mainTexture3d(int argc, char** argv);
+int mainMipmap(int argc, char** argv);
+int mainTexbind(int argc, char** argv);
+int mainTexgen(int argc, char** argv);
+int mainCubemap(int argc, char** argv);
+int mainMultitex(int argc, char** argv);
+int mainCombiner(int argc, char** argv);
+int mainShadowmap( int argc, char** argv );
 
 int main(int argc, char* argv[])
 {

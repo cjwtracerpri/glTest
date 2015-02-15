@@ -59,6 +59,11 @@ int mainTest(int argc, char* argv[])
 	glutKeyboardFunc (keyboard);
 	const GLubyte* s = glGetString(GL_EXTENSIONS);
 	printf("%d", s);
+	GLboolean b;
+	glGetBooleanv(GL_STEREO, &b);
+	glGetBooleanv(GL_DOUBLEBUFFER, &b);
+	GLint i;
+	glGetIntegerv(GL_AUX_BUFFERS, &i);
 
 	glutMainLoop();
 	return 0;  
